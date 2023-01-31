@@ -1,0 +1,1032 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 16px;   
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*header*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.marginlayout {
+    max-width: 1440px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+.leftlogo {
+    width: 7.64818%;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.size {
+    color: #000000;
+    padding: 50px 20px;
+}
+
+.size:hover {
+    border-top: 2px solid #0065FC;
+    padding-top: 50px;  
+}
+
+/*headerEND*/
+
+
+/*filter*/
+
+.filter {
+    padding: 50px 15px;
+}
+
+.title {
+    font-size: 1.375rem;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.text {
+    font-family: Raleway;
+    font-weight: 400;
+    padding-bottom: 20px;
+    font-size: inherit;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    margin-bottom: 35px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #000;
+    background-color: rgba(242, 242, 242, 1);
+    padding: 25px 25px;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 50px;
+}
+
+.search {
+    width: 240px;  
+    height: 50px;
+}
+
+.searchlabel {
+    font-family: Raleway;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    padding: 15px;
+    height: 50px;
+    background-color: rgba(0, 101, 252, 1);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.rubriquefilter {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-bottom:40px;
+    padding-left: 10px;
+}
+
+.rubriquelayaoutmanager {
+    margin-right: 16px;   
+}
+
+.rubriques {
+    font-family: 'Raleway';
+    font-size: 1.125rem;
+    font-weight: bolder;
+}
+.rubriquelayoutsite {
+    display: flex;
+}
+
+.rubriquesinfo {
+    border: solid;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 1.0625rem;
+    margin: 0px 10px;
+    height: 50px;
+}
+
+.rubriqueslayout {
+    font-size: 1.1rem;
+}
+
+.rubriqueslayouts {
+    font-size: 1rem;
+}
+
+.rubriqueslayoutfa {
+    font-size: 1.2rem;
+}
+
+.rubriqueeconomique:hover {
+    background-color: rgba(222, 235, 255, 1);
+}
+
+.rubriquefamille:hover {
+    background-color: rgba(222, 235, 255, 1);
+}
+
+.rubriqueromantique:hover {
+    background-color: rgba(222, 235, 255, 1);
+}
+
+.rubriqueanimaux:hover {
+    background-color: rgba(222, 235, 255, 1);
+}
+
+.rubriquelogodist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.rubriquedistance {
+    padding-left: 10px;
+}
+
+.infologo {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin-top: 45px;
+}
+
+.infocircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC; 
+    width: 1.625rem;
+    height: 1.625rem;
+    border: solid 1px rgba(222, 235, 255, 1);
+    border-radius: 24px;
+}
+
+.infotextlogo {
+    display: flex;
+    align-items: center;
+    height: 1.5rem;
+    padding-left: 10px;
+}
+
+/*filterEND*/
+
+/*leftcard*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.hotels {
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 20px;
+    padding: 50px 40px;
+    width: 61%;  
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; 
+}
+ 
+.cardtitle { 
+    text-decoration: none;
+    color: #000000; 
+    font-size: 1.375rem;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.listcardhotels {
+    width: 32%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.fotohotel {
+    height: 7.75rem;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+
+.namehotel {
+    text-decoration: none;
+    color: #000000;
+    font-size: inherit;
+    font-weight: bolder;
+    padding: 10px 15px;
+}
+
+.pricehotel {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.875rem;
+    padding:0px 15px;
+}
+
+.dollar {
+    font-weight: bolder;
+    font-size: 0.875rem;
+}
+
+.starshotel {
+    padding: 10px 15px;
+}
+
+ i {
+    color: #0065FC;
+    width: 12px;
+    font-size: 0.8rem;
+}
+
+.staroff {
+    color: rgba(242, 242, 242, 1);
+}
+
+.learnmore { 
+    font-size: 1.125rem;
+    font-weight: bolder;
+    margin-top: 40px; 
+}
+
+/*leftcardEND*/
+
+
+/*rightcard*/
+
+.hotelshotels {
+    width: 35%;
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 20px;
+    padding: 40px;   
+}
+
+.rightbesthotels {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.rpopularstitle {
+    width: 281px;
+    height:1.625rem ;
+    font-size: 1.375rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.rlogopopular {
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.rcardshotels {
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    margin:auto;
+    padding: 5px;
+    margin: 20px 0px;
+}
+
+.picturesize { 
+    display: flex;
+    width: 37%;
+    height: auto;
+}
+
+.rightcardfotohotel {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;  
+}
+
+.rightfloatbloc {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.rightnamehotel {
+    font-size: inherit;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+.rightcardpricehotel {
+    font-size: 0.8rem;
+    padding-bottom: 60px;
+    padding-top: 7px;
+}
+
+.rightstarshotel {
+    margin-bottom: 5px;
+}
+
+/*rightcardEND*/
+
+
+/*lastcard*/
+
+.activities {
+    width: 93%;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 100px;
+}
+
+.acttitle { 
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.375rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.blokimgimglast {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between; 
+}
+
+.cardimgimg {
+    width: 94%;
+}
+
+.placetovisit {
+    width: 100%;
+    object-fit: cover;
+    height: 24.313rem;
+    margin-bottom: -3px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activityimgtitle {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);  
+}
+
+/*lastcardEND*/
+
+/*footer*/
+
+.footer {
+    padding: 50px 50px;
+    width: 100%;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.footeraround {
+    display: flex;
+    justify-content: space-between;
+}
+
+.displaylayout {
+    width: 33.3%;
+  
+}
+
+.about {
+    width:100%; 
+}
+
+.housing {
+    width:100%; 
+}
+
+.assist {
+   width:100%; 
+}
+
+.moreabouts {
+    font-size: 1.125rem;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.moreabout { 
+    font-size: 1rem;
+    padding-bottom: 12px;
+}
+
+/*footerEND*/
+
+
+@media (max-width: 992px){
+
+/*header*/
+
+.marginlayout {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.size {
+    color: #000000;
+    padding: 20px 20px;
+}
+
+/*headerEND*/
+
+
+/*filter*/
+
+.filter {
+   
+    padding: 0px 0px;
+}
+
+.searchbar {
+    width: 45%;
+}
+
+.rubriquefilter {
+    width: 100%;
+}
+
+.rubriquelayaoutmanager {
+    margin-right: 0px;       
+}
+
+.rubriqueeconomique {
+    margin: 0px 15px;
+}
+
+.rubriquefamille {
+    margin: 0px 10px 0px 5px;
+}
+
+.rubriqueromantique {
+    margin: 0px 10px;
+}
+
+.rubriqueanimaux {
+    margin-left: 10px;
+}
+
+/*filterEND*/
+
+
+/*leftcard*/
+
+.container {
+    flex-direction: column;
+    max-width: 1024px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+.hotels {
+    width: 100%;  
+    margin-right: 0px;  
+}
+  
+.listcardhotels {
+    width: 28%; 
+}
+
+.namehotel {
+    height: 2.2rem;
+    padding: 0px 15px;
+}
+
+.pricehotel {
+    padding:5px 15px;
+}
+
+.starshotel {
+    padding: 0px 15px;
+}
+
+/*leftcardEND*/
+
+
+/*rightcard*/
+
+.hotelshotels {
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    padding-left: 25px;
+}
+
+.rightbesthotels {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+}
+
+.rpopularstitle {
+    font-size: 1.375rem;
+    font-weight: bolder;
+}
+
+.rlogopopular {
+    width: 18px;
+    height: 16px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rcardshotels {
+    display: flex;
+    width: 31%;
+    /*margin: 25px 20px 0px 0px;*/
+}
+
+.picturesize { 
+    width: 37%;
+}
+
+.rightfloatbloc {
+    padding-left: 10px;
+}
+
+.rightnamehotel {
+    font-size: inherit;
+    font-weight: bolder;
+    height: 4.5rem;
+    padding-top: 10px;
+}
+
+.rightcardpricehotel {
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+.rightstarshotel {
+    margin-bottom: 15px;
+}
+
+/*rightcardEND*/
+
+
+/*lastcard*/
+
+.activities { 
+    width: 89%;
+    margin-bottom: 50px;
+}
+
+.acttitle {  
+    font-size: 1.375rem;
+    font-weight: bolder;
+    margin-bottom: 19px;
+}
+
+.blokimgimglast {
+    display: flex;   
+}
+
+.cardimgimg {
+    width: 83%;
+    margin: 0px 0px;    
+}
+
+.placetovisit {
+    width: 100%;
+    height: 13.188rem;
+}
+
+.activityimgtitle {
+    width: 182px;
+    height: 4.5rem;
+    padding-top: 15px; 
+    padding-bottom: 15px;  
+}
+
+/*lastcardEND*/
+
+
+/*footer*/
+
+.footer {
+    padding: 50px 0px;
+    width: 89%;
+}
+
+.footeraround {
+    display: flex;  
+    justify-content: center;
+}
+
+.displaylayoutfirst {
+    margin: 0px 70px 0px 0px;
+}
+
+.displaylayoutsecond {
+    margin: 0px 60px;
+}
+
+.displaylayoutthird {
+    margin: 0px 140px 0px 20px;
+}
+
+.about {
+    width: 100%;   
+}
+
+.housing {
+    width: 100%;
+}
+
+.assist {
+    width: 100%;
+}
+
+.moreabouts {
+    font-size: 1.125rem;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-top: 45px;
+}
+
+.moreabout {   
+    font-size: 1rem;
+    padding-bottom: 12px;
+}
+
+/*footerEND*/
+
+}
+
+
+@media (max-width: 768px) {
+
+body {  
+    margin-top: 20px;
+}
+
+/*header*/
+
+.header { 
+    padding:0px 0px ;
+    flex-direction: column;
+}
+
+.marginlayout {
+    max-width: 375px;
+    margin: auto;
+}
+
+.nav {  
+    display: flex;
+}
+
+.leftlogo {
+    max-width: 100px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.size {
+    color: #000000;
+    padding: 50px 20px;
+}
+
+.size:hover {
+    border-top: 0px ;
+    padding-top: 50px; 
+    border-bottom: 3px solid #0065FC;
+    padding-bottom: 50px;   
+}
+
+/*headerEND*/
+
+
+/*filter*/
+
+.filter {
+    padding: 0px 0px;
+}
+
+.text {
+    padding-bottom: 35px;
+    padding-left: 0px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 35px;
+    padding-left: 0px;
+}
+
+.searchlabel {
+    padding: 15px 20px;
+}
+
+.searchbutton {
+    display: none;
+}
+
+.colorsearch {
+    color: #fff;
+    font-size: 1rem;   
+}
+
+.rubriquefilter {
+    width:100%;
+    margin-bottom:0px;
+    padding-left: 0px;
+    flex-wrap: wrap;   
+}
+
+.rubriquelayoutsite {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+
+.rubriquesinfo {
+    margin: 10px 0px;
+}
+
+.rubriqueeconomique {
+    width: 48%;
+    height: 3.125rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 0.6875rem;   
+}
+
+.rubriquefamille {
+    width: 48%;
+    height: 3.125rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 0.6875rem; 
+}
+
+.rubriqueromantique {
+    width: 48%;
+    height: 3.125rem;
+    font-size: 0.6875rem; 
+}
+
+.rubriqueanimaux {  
+    width: 48%;
+    height: 3.125rem;
+    font-size: 0.6875rem;
+}
+.rubriqueslayouts {
+    font-size: 0.8rem;
+}
+
+.rubriquedistance {
+    font-size: 0.8rem;
+    padding-left: 10px;
+}
+
+.rubriquelogodist {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.infologo {
+    padding-left: 0px;
+    margin-top: 45px;
+}
+
+.infotextlogo {
+    display: flex;
+    align-items: center;
+    width: 310px;
+    height: 60px;
+    padding-left: 10px;
+}
+
+/*filterEND/*
+
+
+/*rightcard*/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hotelshotels {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    margin: 0px 0px;
+    padding: 20px 0px 10px 0px;
+}
+
+.rightbesthotels {
+    display: flex;
+    align-items: center;
+    padding-right: 0px;
+    margin-left: 20px;
+}
+
+.rpopularstitle {
+    margin-right: 25px;
+}
+
+.rlogopopular {
+    height: 14px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 9px;
+    margin-right: 20px;
+}
+
+.align {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.rcardshotels {
+    width: 94%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+/*rightcardEND*/
+
+
+/*leftcard*/
+
+.hotels {
+    background-color: white;
+    order: 2;
+    padding: 50px 20px;
+}
+
+.cardtitle {
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listcardhotels {
+    margin: 5px 0px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 12px 0px 0px rgba(245, 245, 245, 1.000); 
+}
+
+
+.pricehotel {
+    padding-top: 0px; 
+}
+
+.fotohotel {
+    width: 100%;
+}
+
+.learnmore {
+    display: none;
+}
+
+/*leftcardEND*/
+
+
+/*lastcard*/
+
+.activities {
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.lastblok {
+    margin-bottom: 25px;
+}
+
+.acttitle {
+    width: 210px;
+    margin-bottom: 0px;
+}
+
+.blokimgimglast {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardimgimg {
+    width: 100%;
+    margin: 0px 0px 25px 0px;
+}
+
+.placetovisit {
+    width: 100%;
+    height: 8.375rem;
+}
+
+.activityimgtitle {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 24px 0px rgb(0 0 0 / 25%);
+}
+
+/*lastcardEND*/
+
+
+/*footer*/
+
+.footer {
+    width: 100%;
+}
+
+.footeraround {
+    display: flex;
+    flex-direction: column;
+   
+    flex-wrap: wrap;
+}
+
+.displaylayout {
+    width: 60%;
+    padding-top: 20px; 
+}
+
+.moreabouts { 
+    padding: 5px 15px; 
+    width: 100%;   
+}
+
+.moreabout {  
+    padding: 5px 15px;
+    width: 100%; 
+}
+
+/*footerEND*/
+
+}
+
+    
+
